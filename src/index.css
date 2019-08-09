@@ -1,0 +1,21 @@
+/*
+    app variables
+
+    https://developer.mozilla.org/en-US/docs/Web/CSS/--*
+
+    We want the variables globally available to the application, we'll define them from the :root scope.
+*/
+
+:root {
+    /* font */
+    --main-font: 'Orbitron', sans-serif;
+}
+  
+/*
+app CSS reset
+*/
+
+body, div, p {
+    margin: 0;
+    padding: 0;
+}
